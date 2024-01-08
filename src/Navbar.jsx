@@ -3,7 +3,7 @@ import home from './Images/home.svg'
 const Navbar = () => {
   return (
     <>
-      <div className='bg-[#1E2640] w-[224px] fixed left-0 h-screen flex flex-col justify-between items-center font-Inter px-[10px] py-[16px]'>
+      <div className='bg-[#1E2640] w-[15%] fixed left-0 h-screen flex flex-col justify-between items-center font-Inter px-[10px] py-[16px]'>
         <div className='flex flex-col gap-[24px] '>
         <div className='flex gap-[12px] items-center'>
             <div className='w-[39px] h-[39px] rounded-[4px] bg-white flex items-center justify-center'>

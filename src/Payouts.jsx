@@ -5,7 +5,7 @@ const Payouts = () => {
   return (
     <>
       <div className='flex w-[100%] h-screen font-Inter'>
-        <div className='w-[224px] h-screen'>
+        <div className='w-[15%] h-screen'>
           <Navbar/>
         </div>
           <MainSection/>
