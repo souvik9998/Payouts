@@ -11,7 +11,7 @@ const Transactions = () => {
             <div className='w-fit flex items-center justify-center h-[38px] rounded-[40px] text-[14px] leading-[20px] font-medium bg-[#146EB4] text-[#FFFFFF] px-4 py-[6px]'>Refunds (6)</div>
         </div>
         </div>
-        <div className='bg-white flex flex-col gap-[12px] shadow-sm px-[12px] pt-[12px] pb-[8px] rounded-[8px] h-[400px]'>
+        <div className='bg-white flex flex-col gap-[12px] shadow-sm px-[12px] pt-[12px] rounded-[8px] h-fit'>
             <div className='flex justify-between'>
             <div className=' gap-[12px] border-[1px] rounded-[4px] border-[#D9D9D9] w-[248px] h-[40px] items-center flex text-[#999999] px-[10px] py-[16px]'>
                 <div>
@@ -126,7 +126,7 @@ const Transactions = () => {
                         <div className='w-[20%] text-[14px] leading-[20px] text-[#4D4D4D]'>12 Jul 2023, 03:00 PM</div>
                         <div className='w-[20%] text-[14px] leading-[20px] text-[#1A181E] flex justify-end'>₹1,125.00</div>
                     </div>
-                    <div className='flex bg-white px-[14px] py-[12px] border-b-[1px] h-[48px]'>
+                    <div className='flex bg-white px-[14px] py-[12px] h-[48px]'>
                         <div className='w-[20%] text-[14px] leading-[20px] font-medium  text-[#146EB4]'>#281209</div>
                         <div className='w-[20%] text-[14px] leading-[20px] text-[#4D4D4D] flex gap-[6px] items-center'>
                             <div className='w-[10px] h-[10px] bg-gray-500/80 rounded-full'></div>
