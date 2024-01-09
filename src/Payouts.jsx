@@ -8,7 +8,10 @@ const Payouts = () => {
         <div className='w-[15%] h-screen'>
           <Navbar/>
         </div>
+        <div className='w-[85%]'>
           <MainSection/>
+
+        </div>
         
       </div>  
     </>

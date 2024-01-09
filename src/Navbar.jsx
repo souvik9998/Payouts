@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <>
       <div className='bg-[#1E2640] w-[15%] fixed left-0 h-screen flex flex-col justify-between items-center font-Inter px-[10px] py-[16px]'>
-        <div className='flex flex-col gap-[24px] '>
-        <div className='flex gap-[12px] items-center'>
+        <div className='flex flex-col gap-[24px] w-full'>
+        <div className='flex gap-[12px] px-[16px] items-center justify-between'>
             <div className='w-[39px] h-[39px] rounded-[4px] bg-white flex items-center justify-center'>
             <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.9447 2H3.05529C2.88838 1.99997 2.72644 2.0581 2.59616 2.1648C2.46588 2.27151 2.37503 2.42042 2.33858 2.587L1 7.75C1 8.34674 1.23178 8.91903 1.64437 9.34099C2.05695 9.76295 2.61652 10 3.2 10C3.78348 10 4.34305 9.76295 4.75563 9.34099C5.16821 8.91903 5.4 8.34674 5.4 7.75C5.4 8.34674 5.63179 8.91903 6.04437 9.34099C6.45695 9.76295 7.01652 10 7.6 10C8.18348 10 8.74305 9.76295 9.15563 9.34099C9.56821 8.91903 9.8 8.34674 9.8 7.75C9.8 8.34674 10.0318 8.91903 10.4444 9.34099C10.8569 9.76295 11.4165 10 12 10C12.5835 10 13.1431 9.76295 13.5556 9.34099C13.9682 8.91903 14.2 8.34674 14.2 7.75C14.2 8.34674 14.4318 8.91903 14.8444 9.34099C15.2569 9.76295 15.8165 10 16.4 10C16.9835 10 17.5431 9.76295 17.9556 9.34099C18.3682 8.91903 18.6 8.34674 18.6 7.75C18.6 8.34674 18.8318 8.91903 19.2444 9.34099C19.6569 9.76295 20.2165 10 20.8 10C21.3835 10 21.9431 9.76295 22.3556 9.34099C22.7682 8.91903 23 8.34674 23 7.75L21.6604 2.587C21.6244 2.42041 21.5337 2.27142 21.4036 2.16467C21.2734 2.05793 21.1115 1.99983 20.9447 2Z" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -14,7 +14,7 @@ const Navbar = () => {
             <path d="M18 22V15.5C18 15.2239 17.7761 15 17.5 15H14.5C14.2239 15 14 15.2239 14 15.5V22" stroke="#71717A" stroke-width="1.5"/>
             </svg>
             </div>
-        <div className='text-white w-[108px] h-[42px] flex flex-col gap-[4px]'>
+        <div className='text-white w-6/12 h-[42px] flex flex-col gap-[6px] justify-start'>
             <div className='font-medium text-[15px] leading-[22px]'>Nishyan</div>
             <div className='text-[13px] leading-[16px] underline'>Visit store</div>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </svg>
         </div>
         </div>
-        <div className='flex flex-col gap-[4px]'>
+        <div className='flex flex-col gap-[4px] w-full'>
         <div className='flex items-center gap-[12px] py-[8px] px-[16px] rounded-[4px]'>
             <div className=''>
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +149,7 @@ const Navbar = () => {
         </div>
       </div>
       </div>
-      <div className='w-[192px] h-[54px] py-[6px] px-[12px] flex gap-[10px] rounded-[4px] bg-[#353C53]'>
+      <div className='w-fit h-fit py-[8px] px-[12px] flex gap-[10px] rounded-[4px] bg-[#353C53]'>
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="36" height="36" rx="4" fill="white" fill-opacity="0.1"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00312 9.79727C8.42636 9.79727 7.80313 10.3553 7.80313 11.2473V24.7473C7.80313 25.6393 8.42636 26.1973 9.00312 26.1973H27.0031C27.5799 26.1973 28.2031 25.6393 28.2031 24.7473V21.8473H23.0032C20.8769 21.8473 19.1532 20.1236 19.1532 17.9973C19.1532 15.871 20.8769 14.1473 23.0032 14.1473H28.2031V11.2473C28.2031 10.3553 27.5799 9.79727 27.0031 9.79727H9.00312ZM29.8031 14.1473V11.2473C29.8031 9.65398 28.6355 8.19727 27.0031 8.19727H9.00312C7.37075 8.19727 6.20312 9.65398 6.20312 11.2473V24.7473C6.20312 26.3405 7.37075 27.7973 9.00312 27.7973H27.0031C28.6355 27.7973 29.8031 26.3405 29.8031 24.7473V21.8473H29.8532V14.1473H29.8031ZM22.0032 17.9473C22.0032 17.4778 22.3837 17.0973 22.8532 17.0973H24.1532C24.6226 17.0973 25.0032 17.4778 25.0032 17.9473C25.0032 18.4167 24.6226 18.7973 24.1532 18.7973H22.8532C22.3837 18.7973 22.0032 18.4167 22.0032 17.9473ZM20.8532 17.9973C20.8532 16.8099 21.8158 15.8473 23.0032 15.8473H28.1532V20.1473H23.0032C21.8158 20.1473 20.8532 19.1847 20.8532 17.9973Z" fill="white"/>

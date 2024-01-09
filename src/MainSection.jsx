@@ -3,7 +3,7 @@ import Overview from './Overview'
 const MainSection = () => {
   return (
     <>
-        <div className='h-full w-[83%]'>
+        <div className='h-full w-full'>
             <div className='flex gap-[16px] h-[64px] py-[12px] px-[32px] border-[1px] border-[#D9D9D9]'>
                 <div className='w-[27.5%] flex items-center gap-[16px] '>
                     <div className='font-medium text-[20px] leading-[28px]'>Payouts</div>
@@ -55,7 +55,7 @@ const MainSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full p-10 bg-[#FAFAFA]'>
+            <div className='w-full p-10 bg-[#FAFAFA] min-h-screen'>
                 <Overview/>
             </div>
         </div>
